@@ -43,7 +43,7 @@ int main(int argc, char const *argv[])
  char sen[50];
 
  scanf("%c", &ch);
- scanf("%s", s);
+ scanf("%64s", s);
  scanf("\n");
  scanf("%[^\n]%*c", sen);
 
